@@ -1,0 +1,103 @@
+﻿@model  BunaWebDesign.Models.EmployeeViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="panel panel-body">
+
+
+    <div class="col-md-3">
+        @*@{Html.RenderAction("DirectorMessage", "LoginMaster");}*@
+    </div>
+
+    <div class="col-md-9">
+
+   @Html.TextBoxFor(m => m.Name, new {@class="form-control" ,@placeholder="Search here"})
+
+
+
+
+        <table class="table table-striped">
+            <tr>
+                <th>Name</th>
+                <th>DepartmentNmae</th>
+                <th>Salary</th>
+                <th>Action</th>
+            </tr>
+
+            <tbody id="employeeRow">
+                @if (ViewBag.EmployeeList != null)
+                {
+                    foreach (var item in ViewBag.EmployeeList)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.DepartmentName</td>
+                            <td>@item.Salary</td>
+                            <td><a href="#"><i class="glyphicon glyphicon-eye-open"></i>View</a></td>
+
+                        </tr>
+                        
+                        
+                        
+                    }
+
+
+                }
+
+            </tbody>
+
+        </table>
+     
+          
+
+    </div>
+
+
+</div>
+
+
+
+<script>
+
+    $(document).ready(function(){
+
+        $("#Name").keydown(function () {
+
+            var  searchtext = $(this).val();
+            //debugger
+            $.ajax({
+                
+
+                type: "Post",
+                url: "/LoginMaster/GetSearchRecord?SearchText=" +searchtext,
+                contentType: "html",
+                success: function (response) {
+               
+                    
+                    $("#employeeRow").html(response);
+                }
+
+
+
+
+            })
+
+
+
+        })
+    })
+</script>
+
+
+
+
+
+
+@*<img src="~/Content/Images/design-seo.jpg" class="img-responsive" />
+    <hr />
+    <img src="~/Content/Images/design-seo.jpg" class="img-responsive" />*@

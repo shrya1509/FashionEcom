@@ -1,0 +1,189 @@
+﻿@using System.Web.Optimization;
+@{
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>This is design website</title>
+
+
+    @Styles.Render("~/Content/css")
+    <style>
+        .square {
+            margin: 1px;
+            width: 22rem;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .container {
+            text-align: center;
+            /*display: inline-block;*/
+            width: auto;
+            height: auto;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <div>
+        <header>
+        <nav class="navbar navbar-dark bg-secondary">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                @*<a class="navbar-brand" href="#">Navbar</a>*@
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="\Home\Index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                @Html.ActionLink("All Fashion", "Index", new { controller = "Collections", id = "All-Fashion" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Maxi Dresses", "Index", new { controller = "Collections", id = "Maxi-Dresses" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Midi Dresses", "Index", new { controller = "Collections", id = "Midi-Dresses" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Mini Dresses", "Index", new { controller = "Collections", id = "Mini-Dresses" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Tops & Blouses", "Index", new { controller = "Collections", id = "Tops-Blouses" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Pants", "Index", new { controller = "Collections", id = "Pants" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Skirts", "Index", new { controller = "Collections", id = "Skirts" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Stoles & Scarves", "Index", new { controller = "Collections", id = "Stoles-Scarves" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Jackets &  Overlayers", "Index", new { controller = "Collections", id = "Jackets-Overlayers" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Sarees", "Index", new { controller = "Collections", id = "Sarees" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("All Fashion", "Index", new { controller = "Collections", id = "All-Fashion" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Coordinated Sets", "Index", new { controller = "Collections", id = "Coordinated-Sets" }, new { @class = "dropdown-item" })
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Collection</a>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                                @Html.ActionLink("All Collections", "Index", new { controller = "Collections", id = "All-Collections" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Yours Truly", "Index", new { controller = "Collections", id = "Yours-Truly" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Shadow Fall", "Index", new { controller = "Collections", id = "Shadow-Fall" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Ravangla Days", "Index", new { controller = "Collections", id = "Ravangla-Days" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Raindrops On The Nile", "Index", new { controller = "Collections", id = "Raindrops-On-The-Nile" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Vapour Flowers", "Index", new { controller = "Collections", id = "Vapour-Flowers" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Dahlia Dreams", "Index", new { controller = "Collections", id = "Dahlia-Dreams" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Girl With The Bluebonnets", "Index", new { controller = "Collections", id = "Girl-With-The-Bluebonnets" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Sunbaked Fields", "Index", new { controller = "Collections", id = "Sunbaked-Fields" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Time Whisperer", "Index", new { controller = "Collections", id = "Time-Whisperer" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("The Botanist", "Index", new { controller = "Collections", id = "The-Botanist" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Love For Foliage", "Index", new { controller = "Collections", id = "Love-For-Foliage" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Song Of A Mustard Seed", "Index", new { controller = "Collections", id = "Song-Of-A-Mustard-Seed" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Sky Gazer", "Index", new { controller = "Collections", id = "Sky-Gazer" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Cloud Walker", "Index", new { controller = "Collections", id = "Cloud-Walker" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Threads Of Wind", "Index", new { controller = "Collections", id = "Threads-Of-Wind" }, new { @class = "dropdown-item" })
+                                @Html.ActionLink("Handful Of Stars", "Index", new { controller = "Collections", id = "Handful-Of-Stars" }, new { @class = "dropdown-item" })
+
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            @*<a class="nav-link" href="#">Most Loved</a>*@
+                            @Html.ActionLink("Most Loved", "Index", new { controller = "Collections", id = "Most-Loved" }, new { @class = "nav-link" })
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INR </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">USD</a>
+                                <a class="dropdown-item" href="#">GBP</a>
+                                <a class="dropdown-item" href="#">EUR </a>
+                                <a class="dropdown-item" href="#">AED </a>
+                                <a class="dropdown-item" href="#">QAR</a>
+                                <a class="dropdown-item" href="#">SAR </a>
+                                <a class="dropdown-item" href="#">KWD</a>
+                                <a class="dropdown-item" href="#">AUD</a>
+                                <a class="dropdown-item" href="#">SGD</a>
+                                <a class="dropdown-item" href="#">CAD</a>
+                                <a class="dropdown-item" href="#">JPY</a>
+                                <a class="dropdown-item" href="#">OMR</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    @if (Session["UserId"] != null)
+                {
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Welcome :@Session["UserName"]</a></li>
+                            <li><a href="/LoginMaster/Logout">Logout</a></li>
+
+                        </ul>
+                }
+                else
+                {
+                        <ul class="navbar-nav navbar-right">
+                            <li class="nav-item"><a class="nav-link" href="/LoginMaster/Login">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/LoginMaster/Registration">Register</a></li>
+
+                        </ul>
+                }
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </nav>
+        </header>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div>
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="../../assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                    <small class="d-block mb-3 text-muted">© 2019-2020 </small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Cool stuff</a></li>
+                        <li><a class="text-muted" href="#">Random feature</a></li>
+                        <li><a class="text-muted" href="#">Team feature</a></li>
+                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                        <li><a class="text-muted" href="#">Another one</a></li>
+                        <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Resource</a></li>
+                        <li><a class="text-muted" href="#">Resource name</a></li>
+                        <li><a class="text-muted" href="#">Another resource</a></li>
+                        <li><a class="text-muted" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="#">Locations</a></li>
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

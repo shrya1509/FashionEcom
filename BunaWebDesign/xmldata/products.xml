@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<row>
+		<Product_Code>145</Product_Code>
+		<Product_Title> Maxi Dress</Product_Title>
+		<SKU>999-X</SKU>
+		<Parent_SKU>200-t</Parent_SKU>
+		<Price>500</Price>
+		<Color>Red</Color>
+		<Size>S,M,L</Size>
+    <images>A11.jpg</images>
+		<Description1> Maroon and olive green printed woven maxi dress, has a shirt collar, short sleeves, button closure and flared hem</Description1>
+		<Description2>Dress length: 56 inches. Hand spun and hand-woven</Description2>
+	</row>
+	<row>
+		<Product_Code>171</Product_Code>
+		<Product_Title>Women Maroon Solid Wrap Dress </Product_Title>
+		<SKU>999-B</SKU>
+		<Parent_SKU>999-X</Parent_SKU>
+		<Price>100</Price>
+		<Color>blue,red</Color>
+		<Size>XL,M,L,S</Size>
+		<images>A12.jpg</images>
+		<Description1>Maroon solid woven wrap dress with ruffled detail, has shoulder straps, short sleeves, concealed zip closure, an attached lining, and flared hem</Description1>
+		<Description2/>
+	</row>
+	<row>
+		<Product_Code>136</Product_Code>
+		<Product_Title>NEW BELLA TOP</Product_Title>
+		<SKU>999-C</SKU>
+		<Parent_SKU>999-X</Parent_SKU>
+		<Price>133</Price>
+		<Color>red,blue</Color>
+		<Size>S,L,XLL</Size>
+		<images>A1.jpg</images>
+		<Description1>The top, made in grainy cotton dobby features a high neck , smocking details at the neck, cuffs and front and back for a better fit and wooden buttons at the back.The hand embroidered cuffs gives it more elevated appeal.</Description1>
+		<Description2>Hand wash or dry clean only</Description2>
+	</row>
+	<row>
+		<Product_Code>107</Product_Code>
+		<Product_Title>TOKYO DRESS</Product_Title>
+		<SKU>777-X</SKU>
+		<Parent_SKU>888-U</Parent_SKU>
+		<Price>176</Price>
+		<Color>orange,Pista</Color>
+		<Size>S,M,XLL</Size>
+		<images>A2.jpg</images>
+		<Description1>A go-to dress made in soft cotton poplin featuring wide pleats on the waist and side pockets for comfort functioning. Made in fine cotton poplin this mid calf length dress is embellished with stitched pleats in the front and the back to intentionally fit at the waist and flare downwards! Features discreet pockets on the side seams and concealed zip on the side!</Description1>
+		<Description2>Cotton Poplin</Description2>
+	</row>
+	<row>
+		<Product_Code>176</Product_Code>
+		<Product_Title>ARIL TOTE    </Product_Title>
+		<SKU>777-O</SKU>
+		<Parent_SKU>777-X</Parent_SKU>
+		<Price>199</Price>
+		<Color>red,green</Color>
+		<Size>S,M,,L</Size>
+		<images>A3.jpg</images>
+		<Description1>Our new Elementary tote bag hand-stitched to perfection promises to be the organiser your daily accessories / gadgets need. Features an antique finish lock and a single shoulder strap for easy carrying.</Description1>
+		<Description2/>
+	</row>
+	<row>
+		<Product_Code>173</Product_Code>
+		<Product_Title> CLASSIC BUTTON DOWN DRESS</Product_Title>
+		<SKU>777-X</SKU>
+		<Parent_SKU> 444-I</Parent_SKU>
+		<Price>200</Price>
+		<Color>blue,Musturd</Color>
+		<Size>M,XL</Size>
+		<images>A4.jpg</images>
+		<Description1> An easy everyday shirt dress with a notched collar , a full button down front and an unstructured waistline. An oversized dress for a size small ,slightly less oversized for size medium and fitted for a large size.</Description1>
+		<Description2>Hand wash or dry clean only</Description2>
+	</row>
+	<row>
+		<Product_Code>100</Product_Code>
+		<Product_Title>LISBON DRESS</Product_Title>
+		<SKU>800-I</SKU>
+		<Parent_SKU>440-R</Parent_SKU>
+		<Price>119</Price>
+		<Color>orange,Pista</Color>
+		<Size>XS-S</Size>
+		<images>A5.jpg</images>
+		<Description1>A perfect mix of design and functionality, this Vintage inspired calf length dress, made in cotton linen blend, features a drawstring waist, hand embroidered buttons in the front and a peter pan collar.</Description1>
+		<Description2>Materials-Linon,Hand wash or dry clean only</Description2>
+	</row>
+	<row>
+		<Product_Code>128</Product_Code>
+		<Product_Title>PERU JUMPSUIT</Product_Title>
+		<SKU>333-o</SKU>
+		<Parent_SKU>330-k</Parent_SKU>
+		<Price>110</Price>
+		<Color>Blue</Color>
+		<Size>XS,S,M,L,XL</Size>
+		<images>A6.jpg</images>
+		<Description1>Flowly and breathable made in cotton linen for an ideal summer day,  hand embroidered buttons in the front and a peter pan collar. hand embroidered buttons in the front and a peter pan collar..</Description1>
+		<Description2>Materials-COTTON LINEN</Description2>
+	</row>
+	<row>
+		<Product_Code>113</Product_Code>
+		<Product_Title>Meadow Midi Dress</Product_Title>
+		<SKU>100-h</SKU>
+		<Parent_SKU> 220-l</Parent_SKU>
+		<Price>30</Price>
+		<Color> Blue,velvet</Color>
+		<Size>Fit for all size</Size>
+		<images>A25.jpg</images>
+		<Description1>This dress looks beautiful in every ocassion.Features a drawstring that clinches the waist. Made in soft rayon twill this dress falls beautifully.</Description1>
+		<Description2>Cotton  </Description2>
+	</row>
+	<row>
+		<Product_Code>120</Product_Code>
+		<Product_Title>RUFFLE DRESS</Product_Title>
+		<SKU>80-h</SKU>
+		<Parent_SKU>121-i</Parent_SKU>
+		<Price>141</Price>
+		<Color>Blue,green,white</Color>
+		<Size>FreeSize</Size>
+		<images>A8.jpg</images>
+		<Description1>A perfect dress for a day or an evening out . Features a drawstring that clinches the waist. Made in soft rayon twill this dress falls beautifully.</Description1>
+		<Description2/>
+	</row>
+	<row>
+		<Product_Code>178</Product_Code>
+		<Product_Title>GATHERED TOP</Product_Title>
+		<SKU>30-o</SKU>
+		<Parent_SKU>110-u</Parent_SKU>
+		<Price>127</Price>
+		<Color>Navy</Color>
+		<Size>FreeSize</Size>
+		<images>A9.jpg</images>
+		<Description1>Made from a velvety-soft cotton with a light, crisp quality, this top features unique gather details on the shoulders and contrast piping details. It has subtle fabric tie fastenings placed at the cuffs. Looks best when paired with our Skants pants(as seen here)</Description1>
+		<Description2>Cotton Poplin</Description2>
+	</row>
+	<row>
+		<Product_Code>160</Product_Code>
+		<Product_Title>Mustard yellow and golden woven design lehenga choli with dupatta</Product_Title>
+		<SKU>113-g</SKU>
+		<Parent_SKU>90-y</Parent_SKU>
+		<Price>120</Price>
+		<Color>Musturd Yellow</Color>
+		<Size>S,M,L,Xl,XXl</Size>
+		<images>A10.jpg</images>
+		<Description1>Mustard Yellow &amp; Golden Brocade Ready to Wear Lehenga &amp; Blouse with Dupatta gather details on the best</Description1>
+		<Description2/>
+	</row>
+</root>

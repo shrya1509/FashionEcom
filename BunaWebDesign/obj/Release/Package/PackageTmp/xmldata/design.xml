@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <Product_Title>Maxi Dress</Product_Title>
+    <Price>500</Price>
+    <Images>A16.jpg</Images>
+    <Description>Maroon and olive green printed woven maxi dress, has a shirt collar, short sleeves, button closure and flared hem</Description>
+  </row>
+  <row>
+    <Product_Title>Women Maroon Solid Wrap Dress </Product_Title>
+    <Price>100</Price>
+    <Images>A14.jpg</Images>
+    <Description>A go-to dress made in soft cotton poplin featuring wide pleats on the waist and side pockets for comfort functioning. </Description>
+  </row>
+  <row>
+    <Product_Title>NEW BELLA TOP</Product_Title>
+    <Price>133</Price>
+    <Images>A15.jpg</Images>
+    <Description>Our new Elementary tote bag hand-stitched to perfection promises to be the organiser your daily accessories / gadgets </Description>
+  </row>
+  <row>
+    <Product_Title>TOKYO DRESS</Product_Title>
+    <Price>176</Price>
+    <Images>A17.jpg</Images>
+    <Description>Saree looks beautiful in every ocassion,promises to be the organiser your daily accessories / gadgets</Description>
+  </row>
+  <row>
+    <Product_Title>Saree</Product_Title>
+    <Price>199</Price>
+    <Images>A18.jpg</Images>
+    <Description>Saree looks beautiful in every ocassion.promises to be the organiser your daily accessories / gadgets</Description>
+  </row>
+  <row>
+    <Product_Title>Saree</Product_Title>
+    <Price>200</Price>
+    <Images>A19.jpg</Images>
+    <Description>Flowly and breathable made in cotton linen for an ideal summer day.promises to be the organiser your daily accessories / gadgets</Description>
+  </row>
+  <row>
+    <Product_Title>LISBON DRESS</Product_Title>
+    <Price>119</Price>
+    <Images>A20.jpg</Images>
+    <Description>Our new Elementary tote bag hand-stitched to perfection promises to be the organiser your daily accessories / gadgets /accessories </Description>
+  </row>
+  <row>
+    <Product_Title>PERU JUMPSUIT</Product_Title>
+    <Price>110</Price>
+    <Images>A21.jpg</Images>
+    <Description>Flowly and breathable made in cotton linen for an ideal summer day..promises to be the organiser your daily accessories / gadgets</Description>
+  </row>
+  <row>
+    <Product_Title>ARIL TOTE    </Product_Title>
+    <Price>30</Price>
+    <Images>A22.jpg</Images>
+    <Description>A perfect dress for a day or an evening out . Features a drawstring that clinches the waist. Made in soft rayon twill this dress falls beautifully.</Description>
+  </row>
+</root>
